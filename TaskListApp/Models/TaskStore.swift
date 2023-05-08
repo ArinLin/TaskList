@@ -20,3 +20,4 @@ class TaskStore: ObservableObject {
         Task(name: "Изучить UIKit")
     ]
 }
+    

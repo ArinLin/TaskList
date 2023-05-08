@@ -12,6 +12,7 @@ struct TaskEditingView: View {
     var body: some View {
         Form {
             TextField("Name", text: $tasl.name)
+            Toggle("Complited", isOn: $tasl.completed)
         }
     }
 }
